@@ -2,7 +2,7 @@
 
 **Research Date:** December 2024
 **Method:** 20 in-depth user interviews (45-60 min each)
-**Participants:** Current TaskFlow users across PM, Engineering Manager, and Marketing roles
+**Participants:** Current RemoFlow users across PM, Engineering Manager, and Marketing roles
 
 ---
 
@@ -12,7 +12,7 @@
 
 **What we heard:**
 
-> "I have 8 browser tabs open - TaskFlow, Slack, email, Google Docs, Linear, Figma... I spend half my day just switching between tools to find information." - PM at Series B startup
+> "I have 8 browser tabs open - RemoFlow, Slack, email, Google Docs, Linear, Figma... I spend half my day just switching between tools to find information." - PM at Series B startup
 
 > "By the time I find the right task, read through the comments, and figure out what needs to be done, I've lost 10 minutes of momentum." - Engineering Manager
 
@@ -48,7 +48,7 @@
 
 **What we heard:**
 
-> "I check TaskFlow on my phone during commute but I can't really DO anything. It's just read-only for me." - PM
+> "I check RemoFlow on my phone during commute but I can't really DO anything. It's just read-only for me." - PM
 
 > "The mobile app is fine for viewing but I need to be at my laptop to actually update anything meaningful." - Marketing Manager
 
@@ -146,7 +146,7 @@
 
 ## Quantitative Data
 
-From our survey of 500 TaskFlow users:
+From our survey of 500 RemoFlow users:
 
 - **73%** say they spend "too much time" on task management overhead
 - **62%** want voice input for task creation
@@ -190,7 +190,7 @@ From our survey of 500 TaskFlow users:
 - **Notion:** AI-powered page summaries and Q&A
 - **ClickUp:** Voice commands for task creation
 
-**Risk:** If TaskFlow doesn't add AI features soon, will lose deals to competitors who have them.
+**Risk:** If RemoFlow doesn't add AI features soon, will lose deals to competitors who have them.
 
 **Opportunity:** Build AI features that are better integrated and more natural than bolt-on competitors.
 

@@ -4,7 +4,7 @@
 Read @prd-templates folder and compare PRD template versions
 
 ## Phase 2: Build Context (company background + user research)
-Read @taskflow-company-context.md and @user-research/pain-points.md
+Read @remoflow-company-context.md and @user-research/pain-points.md
 
 ## Phase 3: Sharpen Thinking (Socratic questioning to refine your idea)
 Use the Socratic questioning framework to sharpen my thinking on this feature
