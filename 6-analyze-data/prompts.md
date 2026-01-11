@@ -1,14 +1,15 @@
 # MODULE 6 Analyze Data
 
+## Phase 1: Discovery
 Analyze and find where users are dropping off in the activation flow
-- Read activation-funnel-q4.csv. 
+- Read @activation-funnel-q4.csv. 
 - Count users at each funnel stage (signup, created_first_task=TRUE, completed_first_task=TRUE, invited_teammate=TRUE). 
 - Calculate completion rates at each stage. Present results as a formatted table. 
 - Identify the biggest drop-off point and calculate the drop-off percentage. 
-- Explain what this means for TaskFlow's activation problem.
+- Explain what this means for RemoFlow's activation problem.
 
 Analyze it to extract the top themes explaining why users drop off at task completion
-- Read user-survey-responses.csv. Analyze the 'feature_request' field to identify top themes and count frequency of each. 
+- Read @user-survey-responses.csv. Analyze the 'feature_request' field to identify top themes and count frequency of each. 
 - Calculate percentages. 
 - Also analyze 'confusion_during_onboarding' field to extract powerful user quotes (2-3 representative quotes). 
 - Check if there are any patterns by company_size. 
@@ -22,20 +23,22 @@ Create activation-problem-analysis.md that synthesizes all the discovery work. I
 (5) Proposed Solution describing the Guided Onboarding with sample project concept, 
 (6) Expected Outcome explaining how this will help. Make it executive-ready and well-formatted.
 
-Read impact-estimation-framework.md and explain the core formula and the three-scenario approach. 
+## Phase 2: Impact Estimation
+Read @impact-estimation-framework.md and explain the core formula and the three-scenario approach. 
 - Then explain how to apply it to guided onboarding by walking through each component (Users Affected, Current Rate, Expected Lift, Value per Action). 
 - Emphasize that the key is modeling three scenarios to show the range of outcomes.
 
-Read taskflow-usage-data-q4.csv to get monthly_signups, baseline_activation_rate, avg_ltv_activated_user, and engineering_cost_per_month. 
+Read @remoflow-usage-data-q4.csv to get monthly_signups, baseline_activation_rate, avg_ltv_activated_user, and engineering_cost_per_month. 
 - Use the impact estimation framework to create guided-onboarding-roi-scenarios.md with three complete scenarios (Pessimistic at 20th percentile, Realistic at 50th, Optimistic at 80th). 
 - For each scenario, model different adoption rates (low/medium/high), different activation lifts (conservative/moderate/strong), calculate incremental activated users per month, monthly revenue impact, 3-year revenue, and ROI vs. the engineering investment (assume 4 months, 2 engineers). 
 - Include a Key Assumptions section documenting all inputs. Make reasonable assumptions for adoption rates and lift percentages that follow a pessimistic/realistic/optimistic pattern.
 
 Summarize the key takeaways: highlight the ROI for each scenario, note that even the pessimistic case shows positive ROI, mention the strategic value beyond just the numbers, and state the total engineering investment.
 
-Read the first 5-10 rows of onboarding-experiment-results.csv and display them as a formatted table to show the data structure. Then explain what columns are in the dataset and what we'll be analyzing (primary metric first, then segments, then quality metrics).
+## Phase 3: Experiment Analysis
+Read the first 5-10 rows of @onboarding-experiment-results.csv and display them as a formatted table to show the data structure. Then explain what columns are in the dataset and what we'll be analyzing (primary metric first, then segments, then quality metrics).
 
-Read onboarding-experiment-results.csv. 
+Read @onboarding-experiment-results.csv. 
 - Count users in each cohort (control vs treatment). 
 - For each cohort, count how many have completed_first_task=TRUE and calculate the activation rate. 
 - Calculate the lift in percentage points. 
